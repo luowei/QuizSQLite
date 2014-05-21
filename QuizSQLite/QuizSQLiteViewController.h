@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QuizSQLiteViewController : UIViewController
+@interface QuizSQLiteViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    NSMutableArray *list;
+}
+
+@property(nonatomic,retain) IBOutlet UITableView *table;
 
 @end

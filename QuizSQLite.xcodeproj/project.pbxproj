@@ -18,6 +18,16 @@
 		EAE888AE192C6EBE0062E5AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE888AD192C6EBE0062E5AE /* Default-568h@2x.png */; };
 		EAE888B1192C6EBE0062E5AE /* QuizSQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE888B0192C6EBE0062E5AE /* QuizSQLiteViewController.m */; };
 		EAE888B4192C6EBE0062E5AE /* QuizSQLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE888B2192C6EBE0062E5AE /* QuizSQLiteViewController.xib */; };
+		EAE888BB192C6F710062E5AE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE888BA192C6F710062E5AE /* libsqlite3.0.dylib */; };
+		EAE8891E192C71930062E5AE /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE8890E192C71930062E5AE /* FMDatabase+InMemoryOnDiskIO.m */; };
+		EAE8891F192C71930062E5AE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE88911192C71930062E5AE /* FMDatabase.m */; };
+		EAE88920192C71930062E5AE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE88913192C71930062E5AE /* FMDatabaseAdditions.m */; };
+		EAE88921192C71930062E5AE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE88915192C71930062E5AE /* FMDatabasePool.m */; };
+		EAE88922192C71930062E5AE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE88917192C71930062E5AE /* FMDatabaseQueue.m */; };
+		EAE88923192C71930062E5AE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE8891A192C71930062E5AE /* FMResultSet.m */; };
+		EAE88926192C729D0062E5AE /* sample in Resources */ = {isa = PBXBuildFile; fileRef = EAE88925192C729D0062E5AE /* sample */; };
+		EAE8892A192C93580062E5AE /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE88928192C93580062E5AE /* QuizViewController.m */; };
+		EAE8892B192C93580062E5AE /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE88929192C93580062E5AE /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,24 @@
 		EAE888AF192C6EBE0062E5AE /* QuizSQLiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizSQLiteViewController.h; sourceTree = "<group>"; };
 		EAE888B0192C6EBE0062E5AE /* QuizSQLiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizSQLiteViewController.m; sourceTree = "<group>"; };
 		EAE888B3192C6EBE0062E5AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizSQLiteViewController.xib; sourceTree = "<group>"; };
+		EAE888BA192C6F710062E5AE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		EAE8890D192C71930062E5AE /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		EAE8890E192C71930062E5AE /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		EAE88910192C71930062E5AE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EAE88911192C71930062E5AE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EAE88912192C71930062E5AE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EAE88913192C71930062E5AE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EAE88914192C71930062E5AE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EAE88915192C71930062E5AE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EAE88916192C71930062E5AE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EAE88917192C71930062E5AE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EAE88918192C71930062E5AE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EAE88919192C71930062E5AE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EAE8891A192C71930062E5AE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EAE88925192C729D0062E5AE /* sample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sample; sourceTree = "<group>"; };
+		EAE88927192C93570062E5AE /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		EAE88928192C93580062E5AE /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		EAE88929192C93580062E5AE /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE888BB192C6F710062E5AE /* libsqlite3.0.dylib in Frameworks */,
 				EAE88898192C6EBE0062E5AE /* UIKit.framework in Frameworks */,
 				EAE8889A192C6EBE0062E5AE /* Foundation.framework in Frameworks */,
 				EAE8889C192C6EBE0062E5AE /* CoreGraphics.framework in Frameworks */,
@@ -56,7 +85,9 @@
 		EAE8888B192C6EBE0062E5AE = {
 			isa = PBXGroup;
 			children = (
+				EAE888BA192C6F710062E5AE /* libsqlite3.0.dylib */,
 				EAE8889D192C6EBE0062E5AE /* QuizSQLite */,
+				EAE8890B192C71930062E5AE /* src */,
 				EAE88896192C6EBE0062E5AE /* Frameworks */,
 				EAE88895192C6EBE0062E5AE /* Products */,
 			);
@@ -88,6 +119,9 @@
 				EAE888AF192C6EBE0062E5AE /* QuizSQLiteViewController.h */,
 				EAE888B0192C6EBE0062E5AE /* QuizSQLiteViewController.m */,
 				EAE888B2192C6EBE0062E5AE /* QuizSQLiteViewController.xib */,
+				EAE88927192C93570062E5AE /* QuizViewController.h */,
+				EAE88928192C93580062E5AE /* QuizViewController.m */,
+				EAE88929192C93580062E5AE /* QuizViewController.xib */,
 				EAE8889E192C6EBE0062E5AE /* Supporting Files */,
 			);
 			path = QuizSQLite;
@@ -105,6 +139,43 @@
 				EAE888AD192C6EBE0062E5AE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAE8890B192C71930062E5AE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8890C192C71930062E5AE /* extra */,
+				EAE8890F192C71930062E5AE /* fmdb */,
+				EAE88925192C729D0062E5AE /* sample */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EAE8890C192C71930062E5AE /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8890D192C71930062E5AE /* FMDatabase+InMemoryOnDiskIO.h */,
+				EAE8890E192C71930062E5AE /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		EAE8890F192C71930062E5AE /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EAE88910192C71930062E5AE /* FMDatabase.h */,
+				EAE88911192C71930062E5AE /* FMDatabase.m */,
+				EAE88912192C71930062E5AE /* FMDatabaseAdditions.h */,
+				EAE88913192C71930062E5AE /* FMDatabaseAdditions.m */,
+				EAE88914192C71930062E5AE /* FMDatabasePool.h */,
+				EAE88915192C71930062E5AE /* FMDatabasePool.m */,
+				EAE88916192C71930062E5AE /* FMDatabaseQueue.h */,
+				EAE88917192C71930062E5AE /* FMDatabaseQueue.m */,
+				EAE88918192C71930062E5AE /* FMDB.h */,
+				EAE88919192C71930062E5AE /* FMResultSet.h */,
+				EAE8891A192C71930062E5AE /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +235,8 @@
 				EAE888AC192C6EBE0062E5AE /* Default@2x.png in Resources */,
 				EAE888AE192C6EBE0062E5AE /* Default-568h@2x.png in Resources */,
 				EAE888B4192C6EBE0062E5AE /* QuizSQLiteViewController.xib in Resources */,
+				EAE88926192C729D0062E5AE /* sample in Resources */,
+				EAE8892B192C93580062E5AE /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +250,13 @@
 				EAE888A4192C6EBE0062E5AE /* main.m in Sources */,
 				EAE888A8192C6EBE0062E5AE /* QuizSQLiteAppDelegate.m in Sources */,
 				EAE888B1192C6EBE0062E5AE /* QuizSQLiteViewController.m in Sources */,
+				EAE8891E192C71930062E5AE /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				EAE8891F192C71930062E5AE /* FMDatabase.m in Sources */,
+				EAE88920192C71930062E5AE /* FMDatabaseAdditions.m in Sources */,
+				EAE88921192C71930062E5AE /* FMDatabasePool.m in Sources */,
+				EAE88922192C71930062E5AE /* FMDatabaseQueue.m in Sources */,
+				EAE88923192C71930062E5AE /* FMResultSet.m in Sources */,
+				EAE8892A192C93580062E5AE /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
