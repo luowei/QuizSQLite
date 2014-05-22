@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA47C567192D9179009179CF /* doc in Resources */ = {isa = PBXBuildFile; fileRef = EA47C565192D9179009179CF /* doc */; };
+		EA47C568192D9179009179CF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA47C566192D9179009179CF /* README.md */; };
 		EAE88898192C6EBE0062E5AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE88897192C6EBE0062E5AE /* UIKit.framework */; };
 		EAE8889A192C6EBE0062E5AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE88899192C6EBE0062E5AE /* Foundation.framework */; };
 		EAE8889C192C6EBE0062E5AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE8889B192C6EBE0062E5AE /* CoreGraphics.framework */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA47C565192D9179009179CF /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		EA47C566192D9179009179CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		EAE88894192C6EBE0062E5AE /* QuizSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE88897192C6EBE0062E5AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAE88899192C6EBE0062E5AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +92,8 @@
 				EAE888BA192C6F710062E5AE /* libsqlite3.0.dylib */,
 				EAE8889D192C6EBE0062E5AE /* QuizSQLite */,
 				EAE8890B192C71930062E5AE /* src */,
+				EA47C565192D9179009179CF /* doc */,
+				EA47C566192D9179009179CF /* README.md */,
 				EAE88896192C6EBE0062E5AE /* Frameworks */,
 				EAE88895192C6EBE0062E5AE /* Products */,
 			);
@@ -237,6 +243,8 @@
 				EAE888B4192C6EBE0062E5AE /* QuizSQLiteViewController.xib in Resources */,
 				EAE88926192C729D0062E5AE /* sample in Resources */,
 				EAE8892B192C93580062E5AE /* QuizViewController.xib in Resources */,
+				EA47C567192D9179009179CF /* doc in Resources */,
+				EA47C568192D9179009179CF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +387,7 @@
 				EAE888B9192C6EBE0062E5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
